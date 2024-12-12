@@ -357,13 +357,30 @@ text-align: left;
 
 /*              Footer      */
 footer{
-    display: block;
+    display: flex;
+    justify-content: space-between;
     background-color: rgb(59, 23, 126);
     height: 10%;
     width: 100%;
     color: #fff; /* Texto blanco */
-    padding: 40px 20px;
+    padding: 20px;
     font-family: Arial, sans-serif;
 }
+.lado-izq{
+    padding-left: 400px;
+    padding-right: 100px;
+    border-right: solid rgb(255, 255, 255) 4px;
+}
 
+.lado-der{
+    padding-left: 50px;
+    padding-right: 200px;
+}
 
+.horario{
+    font-size: 25px;
+}
+.ubi{
+    color: white;
+    padding-left: 60px;
+}
